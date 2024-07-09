@@ -1,0 +1,22 @@
+{
+  "editor.fontFamily": "Cica",
+  "editor.fontSize": 18,
+  "editor.insertSpaces": true,
+  "editor.matchBrackets": "always",
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor. formatOnSave": true,
+  "prettier.configPath": "${workspaceFolder}/.prettier.json"
+}
